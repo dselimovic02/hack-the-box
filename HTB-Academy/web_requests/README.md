@@ -22,7 +22,7 @@ Next, we run `ls` command to list the contents of our current directory.
 ![image](screenshots/list.png)
 
 We can see that we have downloaded the file sucessfully.
-Now we need just need to read the contents of our fle. We can do that using the `cat` command: 
+Now we just need to read the contents of our file. We can do that using the `cat` command: 
 
 ![image](screenshots/flag.png)
 
