@@ -9,7 +9,9 @@ Our task here is to download /download.php file using cURL.
 
 After starting our target machine we input the following command:
 
-`curl -o <TARGET_IP>/download.php`
+`curl -O <TARGET_IP>/download.php`
+
+We use the `-O` option when we want to keep the remote file name.
 
 Replace `<TARGET_IP>` with the IP address of your target machine.
 
