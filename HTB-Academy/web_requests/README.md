@@ -45,3 +45,15 @@ By using `-v`, verbose,  option we will get both request and response in our out
 Line `> GET / HTTP/1.1` is the soultion to our first question. HTTP method used is GET.
 Line `< Server: Apache/2.4.41 (Ubuntu)` gives us the version of Apache server which is 2.4.41
 
+## HTTP Headers
+
+This time we are tasked to use browser dev tools instead of cURL.
+
+  1. Search for the target, with its IP address, inside our browser of choice.
+  2. Open brower dev tools [ctrl + shift + i].
+  3. Open Network tab.
+  4. Refresh [ctrl + r].
+  5. Select file with name flag...
+  6. Open response tab and copy the flag.
+
+  ![image](screenshots/headers.png)
