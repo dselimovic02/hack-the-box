@@ -49,7 +49,7 @@ Line `< Server: Apache/2.4.41 (Ubuntu)` gives us the version of Apache server wh
 
 This time we are tasked to use browser dev tools instead of cURL.
 
-  1. Search for the target, with its IP address, inside our browser of choice.
+  1. Search for the target, with its IP address, inside your browser of choice.
   2. Open brower dev tools [ctrl + shift + i].
   3. Open Network tab.
   4. Refresh [ctrl + r].
@@ -57,3 +57,24 @@ This time we are tasked to use browser dev tools instead of cURL.
   6. Open response tab and copy the flag.
 
   ![image](screenshots/headers.png)
+
+  # HTTP METHODS
+  ## GET
+
+For this task we need to log in our target with supplied user credentials via browser.
+Credentials are 'admin' for username and same for password.
+
+ ![image](screenshots/get_1.png)
+
+ After we gain access to the website, we need to search for any term using the search box provided.
+
+ ![image](screenshots/get_2.png)
+
+ The output is not that interesting. Now we need to find out the method that was used for data retrieval. We can find that info in the Network tab of the dev tools.
+ We go to our Network tab of dev tools and refresh using [ctrl + r]. Then we search again for any term.
+
+ ![image](screenshot/get_3.png)
+
+After finding out the call and method, we can get our flag by searching for that term with cURL.
+
+![image](screenshots/get_4.png)
