@@ -73,7 +73,7 @@ Credentials are 'admin' for username and same for password.
  The output is not that interesting. Now we need to find out the method that was used for data retrieval. We can find that info in the Network tab of the dev tools.
  We go to our Network tab of dev tools and refresh using [ctrl + r]. Then we search again for any term.
 
- ![image](screenshot/get_3.png)
+ ![image](screenshots/get_3.png)
 
 After finding out the call and method, we can get our flag by searching for that term with cURL.
 
