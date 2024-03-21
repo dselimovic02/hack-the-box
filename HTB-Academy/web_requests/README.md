@@ -62,7 +62,7 @@ This time we are tasked to use browser dev tools instead of cURL.
   ## GET
 
 For this task we need to log in our target with supplied user credentials via browser.
-Credentials are 'admin' for username and same for password.
+Credentials are 'admin' for the username and same for the password.
 
  ![image](screenshots/get_1.png)
 
@@ -74,6 +74,10 @@ Credentials are 'admin' for username and same for password.
  We go to our Network tab of dev tools and refresh using [ctrl + r]. Then we search again for any term.
 
  ![image](screenshots/get_3.png)
+
+ Our call is at the bottom of the stack. We select it to find out the call that we need for the cURL call.
+
+![image](screenshots/get_5.png)
 
 After finding out the call and method, we can get our flag by searching for that term with cURL.
 
