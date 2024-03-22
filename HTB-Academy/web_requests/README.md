@@ -118,3 +118,17 @@ Now we inspect the request that was made for search action.
 With the data of the request and request file we can now make full request with cURL to get the flag.
 
 ![image](screenshots/post_7.png)
+
+## CRUD
+
+To rename a city we use PUT method:
+
+![image](screenshots/crud_1.png)
+
+To delete a city we use a DELETE method:
+
+![image](screenshots/crud_2.png)
+
+Now we can access the task's flag:
+
+![image](screenshots/crud_3.png)
