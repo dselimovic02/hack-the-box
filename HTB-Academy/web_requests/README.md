@@ -82,3 +82,39 @@ Credentials are 'admin' for the username and same for the password.
 After finding out the call and method, we can get our flag by searching for that term with cURL.
 
 ![image](screenshots/get_4.png)
+
+## POST
+
+This task is similar to previous one but uses a different method.
+First we need to log in via the browser.
+
+![image](screenshots/get_1.png)
+
+Now that we have access, we need to check our network tab of dev tools to see the request.
+
+![image](screenshots/get_2.png)
+
+We can now replicate that request using cURL and POST method with the POST data.
+
+![image](screenshots/get_3.png)
+
+Next step is to inspect the request body to get neccessary cookie data.
+
+![image](screenshots/get_3a.png)
+
+We can now make a request using the cookie data.
+
+![image](screenshots/get_4.png)
+
+If we make a search using provided search box, we get no results.
+
+![image](screenshots/get_5.png)
+
+
+Now we inspect the request that was made for search action.
+
+![image](screenshots/get_6.png)
+
+With the data of the request and request file we can now make full request with cURL to get the flag.
+
+![image](screenshots/get_7.png)
